@@ -1,5 +1,5 @@
-# JSCore OpenRepo
-
+# OAPM OpenRepo
+The Fucked up openrepo for the fucked up package manager OAPM
 ## Adding Packages
 
 1. Include a package manifest in the package, all fields must be present.
