@@ -5,21 +5,18 @@ The Fucked up openrepo for the fucked up package manager OAPM
 1. Include a package manifest in the package, all fields must be present.
 ```json
 {
-  "name": "extract-zip",
+  "name": "<your-project-name-here>",
   "version": "0.1.0",
-  "description": "Extract zip file to directory.",
+  "description": "<your-project-descr>",
   "keywords": [],
-  "license": "LGPL-3.0-or-later",
+  "license": "<License(we use FucKv2)>",
   "author": {
-    "name": "Sirius",
-    "email": "sirius@siri.ws",
-    "url": "https://siri.ws"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fabriccore/extract-zip-js"
+    "name": "<Your Username/Full Name>",
+    "email": "<your email>",
+    "url": "<Your website, if you do not have one, put the link to your github profile>"
   },
   "dependencies": {
+    // Put your depedencies here like this:
     "rinode": "0.1.0"
   }
 }
@@ -28,10 +25,12 @@ The Fucked up openrepo for the fucked up package manager OAPM
 
 > ### Adding Packages (with your own hands)
 > 
-> 1. Git clone the repository.
-> 2. Add an entry to seeds.json
-> 3. Run `node pull` (You may need to run `npm install` before this.)
-> 4. Push
+> 1. Fork the repository.
+> 2. Clone it
+> 3. Add an entry to seeds.json
+> 4. Run `node pull` (You may need to run `npm install` before this.)
+> 5. Push
+> 6. Make a Pull request
 
 ## Resources
 
@@ -52,8 +51,7 @@ The Fucked up openrepo for the fucked up package manager OAPM
 |[command](./packages/command)|0.1.4|07/07/25 - 22:11|Declarative command registration.|
 |[console](./packages/console)|0.1.2|07/15/25 - 21:28|Provides the console object.|
 |[devtools](./packages/devtools)|0.1.2|07/09/25 - 22:15|Developer's best friend.|
-|[dummy1](./packages/dummy1)|0.1.0|07/01/25 - 19:16|Dummy package.|
-|[dummy2](./packages/dummy2)|0.1.0|07/01/25 - 19:16|Dummy package.|
+|[dummy1](./packages/dummy1)|0.1.0|07/01/25 - 19:16|The example package package.|
 |[extract-zip](./packages/extract-zip)|0.1.0|06/30/25 - 10:48|Extract zip file to directory.|
 |[fabric-api-events](./packages/fabric-api-events)|0.1.2|07/15/25 - 21:28|Event listeners for Fabric API events|
 |[fetch](./packages/fetch)|0.1.2|07/15/25 - 21:28|Provides the fetch API.|
