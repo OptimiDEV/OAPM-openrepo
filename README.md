@@ -51,7 +51,8 @@ The Fucked up openrepo for the fucked up package manager OAPM
 |[command](./packages/command)|0.1.4|07/07/25 - 22:11|Declarative command registration.|
 |[console](./packages/console)|0.1.2|07/15/25 - 21:28|Provides the console object.|
 |[devtools](./packages/devtools)|0.1.2|07/09/25 - 22:15|Developer's best friend.|
-|[dummy1](./packages/dummy1)|0.1.0|07/01/25 - 19:16|The example package package.|
+|[dummy1](./packages/dummy1)|0.1.0|07/01/25 - 19:16|The example package 1.|
+|[dummy2](./packages/dummy2)|0.1.0|??/??/?? - ??:??|The example package 2.|
 |[extract-zip](./packages/extract-zip)|0.1.0|06/30/25 - 10:48|Extract zip file to directory.|
 |[fabric-api-events](./packages/fabric-api-events)|0.1.2|07/15/25 - 21:28|Event listeners for Fabric API events|
 |[fetch](./packages/fetch)|0.1.2|07/15/25 - 21:28|Provides the fetch API.|
