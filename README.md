@@ -28,9 +28,8 @@ The Fucked up openrepo for the fucked up package manager OAPM
 > 1. Fork the repository.
 > 2. Clone it
 > 3. Add an entry to seeds.json
-> 4. Run `node pull` (You may need to run `npm install` before this.)
-> 5. Push
-> 6. Make a Pull request
+> 4. Push
+> 5. Make a Pull request
 
 ## Resources
 
